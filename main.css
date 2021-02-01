@@ -10441,6 +10441,8 @@ fieldset:disabled .btn {
         display: none!important
     }
 }
-
+#sonsnavigation{
+  width: 66%;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */
