@@ -1,0 +1,16 @@
+.recipe {
+    margin: 5em auto;
+    padding: 5em;
+}
+
+.recipe-img {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("assets/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
