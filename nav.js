@@ -26,4 +26,5 @@ var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-
 </div>
 </nav>`;
 
+
 document.getElementById("navbar-content").innerHTML = navHtmlForExplore;
