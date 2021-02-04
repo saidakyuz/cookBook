@@ -1,8 +1,8 @@
 var footerHtml = `<footer id="footer" class="pt-4 my-md-5 pt-md-5 border-top">
 <div class="row">
     <div class="col-12 col-md">
-        <img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-        <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        <img class="mb-2 " src="assets/logotrans.png " alt=" " width="120 " height="90 ">
+        <small class="d-block mb-3 text-muted ">&copy; 2021 WBS CODING</small>
     </div>
     <div class="col-6 col-md">
         <h5>Features</h5>

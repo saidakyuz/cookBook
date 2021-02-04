@@ -1,3 +1,11 @@
+body {
+    background-image: url("assets/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
+}
+
+
 /*.recipe {
     margin: 5em auto;
     padding: 5em;
@@ -14,23 +22,23 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
-.carousel-control-prev-icon{
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
+
+.carousel-control-prev-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
 }
 
-
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
 }
