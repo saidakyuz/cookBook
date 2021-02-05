@@ -9,6 +9,11 @@
     justify-content: center;
 }
 
+.footer-font {
+    font-weight: 700;
+    color: black !important;
+}
+
 
 /*.recipe {
     margin: 5em auto;
@@ -58,7 +63,7 @@ body {
     background-size: 100%, 100%;
     border-radius: 50%;
     border: 1px solid black;
-    background-image: url("img/next.png");
+    background-image: url("img/previous.png");
     margin-left: -20%;
     margin-top: 20%;
     position: sticky;
