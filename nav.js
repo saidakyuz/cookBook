@@ -1,4 +1,4 @@
-var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-suns-color">
 <a class="navbar-brand" href="#">
     <img src="assets/logotrans.png" width="60" height="45" alt="">
 </a>
