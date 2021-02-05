@@ -1,3 +1,15 @@
+.bg-suns-color {
+    background-color: #487e95;
+}
+
+.flex-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*.recipe {
     margin: 5em auto;
     padding: 5em;
@@ -15,7 +27,7 @@ body {
     background-attachment: fixed;
 }*/
 
-.ca-cotrol-buttons{
+.ca-cotrol-buttons {
     height: 30px;
     width: 30px;
     outline: black;
@@ -39,17 +51,17 @@ body {
     position: sticky;
 }
 
-.carousel-control-prev-icon{
-  height: 30px;
-  width: 30px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: url("img/next.png");
-  margin-left: -20%;
-  margin-top: 20%;
-  position: sticky;
+.carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url("img/next.png");
+    margin-left: -20%;
+    margin-top: 20%;
+    position: sticky;
 }
 
 .background {
@@ -67,6 +79,7 @@ body {
     border: solid;
     background-color: #487e95;
 }
-.nextbutton{
-  align-content: flex-end;
+
+.nextbutton {
+    align-content: flex-end;
 }
