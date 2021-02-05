@@ -22,6 +22,21 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
+<<<<<<< HEAD
+.carousel-control-prev-icon{
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: url("img/previous.png");
+  margin-left: -20%;
+  margin-top: 20%;
+  position: sticky;
+}
+=======
+>>>>>>> master
 
 .carousel-control-prev-icon {
     height: 100px;
@@ -34,6 +49,34 @@ body {
 }
 
 .carousel-control-next-icon {
+<<<<<<< HEAD
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: url("img/next.png");
+  margin-right: -20%;
+  margin-top: 20%;
+  position: sticky;
+}
+.background{
+  background-color: #f4f5db;
+
+}
+.Description{
+  text-align: justify;
+  border: solid;
+  border-radius: 25px;
+  background-color: #d9dab0;
+}
+.Ingredients{
+border: solid;
+background-color: #487e95;
+margin-right: 1em;
+}
+=======
     height: 100px;
     width: 100px;
     outline: black;
@@ -42,3 +85,4 @@ body {
     border: 1px solid black;
     background-image: none;
 }
+>>>>>>> master
