@@ -15,14 +15,15 @@ body {
     background-attachment: fixed;
 }*/
 
-.carousel-control-prev-icon {
-    height: 100px;
-    width: 100px;
+.ca-cotrol-buttons{
+    height: 30px;
+    width: 30px;
     outline: black;
     background-size: 100%, 100%;
     border-radius: 50%;
     border: 1px solid black;
     background-image: none;
+    position: sticky;
 }
 
 .carousel-control-next-icon {
@@ -36,6 +37,19 @@ body {
     margin-right: -20%;
     margin-top: 20%;
     position: sticky;
+}
+
+.carousel-control-prev-icon{
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: url("img/next.png");
+  margin-left: -20%;
+  margin-top: 20%;
+  position: sticky;
 }
 
 .background {
@@ -52,5 +66,7 @@ body {
 .Ingredients {
     border: solid;
     background-color: #487e95;
-    margin-right: 1em;
+}
+.nextbutton{
+  align-content: flex-end;
 }
