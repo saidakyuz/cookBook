@@ -2,549 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CookBooK</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="/main.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CookBooK</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="/main.css" rel="stylesheet">
 </head>
 
 <body class="background">
-    <!--NAVBAR-->
-    <header>
-        <div id="navbar-content">
-            <!--Look into nav.js-->
-        </div>
-    </header>
 
-    <div class="container col-9">
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logotrans.png" width="60" height="45" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container mt-md-5">
-                        <div class="row">
-                            <img src="img/Lahmacun.jpg" class="d-block w-100 img-fluid" alt="image of Lahmacun">
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <h2>Lahmacun</h2>
-                        </div>
-                    </div>
-                    <div class="row mt-lg-5">
-                        <div class="col-lg-3 col-md-1 col-sm-1 Ingredients">
-                            <h4>Ingredients</h4>
-                            <br>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Quantity</th>
-                                        <th scope="col">Unit</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><b><i>For the dough:</i></b></td>
-                                        <td></td>
-                                        <td></td>
-                                        <tr>
-                                            <td>bread flour</td>
-                                            <td>240</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>instant yeast</td>
-                                            <td>1.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>light brown sugar</td>
-                                            <td>1.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>large egg</td>
-                                            <td>1</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>whole milk</td>
-                                            <td>120</td>
-                                            <td>ml</td>
-                                        </tr>
-                                        <tr>
-                                            <td>extra virgin olive oil</td>
-                                            <td>60</td>
-                                            <td>ml</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b><i>For the topping:</i></b></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>diced onion</td>
-                                            <td>0.5</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>medium tomatoes</td>
-                                            <td>5</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>tomato paste</td>
-                                            <td>1</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>chopped parsley</td>
-                                            <td>2</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>chopped mint</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground sumac</td>
-                                            <td>0.5</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Aleppo chili flakes</td>
-                                            <td>1</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>paprika</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground all spice</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground cumin</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground cinnamon</td>
-                                            <td>0.25</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>salt</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground black pepper</td>
-                                            <td>0.25</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>fatty ground beef or lamb</td>
-                                            <td>150</td>
-                                            <td>g</td>
-                                        </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="col-md-8 col-sm-1 Description">
-                            <h3>Description</h3>
-                            <br>
-                            <ol>
-                                <li>To make the dough, first, you warm the milk, ideally in a microwave on high heat for no more than 30 seconds. In a large bowl whisk together the flour, instant dry yeast, light brown sugar, and salt. Make a well in the
-                                    center of the flour mixture and add to it one large egg, warmed milk, and extra virgin olive oil. Knead for five to six minutes until you have a smooth and elastic dough. Cover the bowl with plastic wrap and place it
-                                    in a warm place to prove for two hours until doubled in size.</li>
-                                <br>
-                                <li>Transfer the dough onto a lightly floured surface. Divide into four equal portions and then shape each piece into a ball. Cover with plastic wrap and let rest for 30 minutes.</li>
-                                <br>
-                                <li>While the dough is resting, place a baking tray inside the oven and set it to preheat at 250°C/480°F. To make the topping first slice the tomatoes in half, then remove the seeds and squeeze out the juice. Place all the
-                                    ingredients that make the topping, except meat, in a food processor until well combined. Now, incorporate the meat and pulse until the mixture turns into a paste.</li>
-                                <br>
-                                <li>To assemble, lightly flour a ball of dough, then roll it into a thin round. Place the round on a piece of baking paper and brush the edges with olive oil. Arrange the topping evenly all over the dough, then gently press
-                                    it in taking care that you do not tear it.</li>
-                                <br>
-                                <li>Place the lahmacun with the baking paper into the baking tray and bake for five to six minutes. Repeat this last step with the remaining dough and topping.</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container mt-md-5">
-                        <div class="row foodimage justify-content-center">
-                            <img src="img/Wienerschnitzel 1.jpg" class="img-fluid">
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <h2>Wiener Schnitzel</h2>
-                        </div>
-                        <div class="row mt-md-5">
-                            <div class="col-md-3 col-sm-1 Ingredients">
-                                <h4>Ingredients</h4>
-                                <br>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Name</th>
-                                            <th scope="col">Quantity</th>
-                                            <th scope="col">Unit</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>4 veal cutlets</td>
-                                            <td>each 180</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>beaten eggs</td>
-                                            <td>2</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>course-ground flour</td>
-                                            <td>100</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>breadcrumbs</td>
-                                            <td>100</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>dash of salt</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>dash of pepper</td>
-                                            <td>60</td>
-                                            <td>ml</td>
-                                        </tr>
-                                        <tr>
-                                            <td>frying oil</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>lemon wedges</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-8 col-sm-1 Description">
-                                <h3>Description</h3>
-                                <br>
-                                <ol>
-                                    <li>Place flour, breadcrumbs and beaten eggs into three separate wide and shallow containers.</li>
-                                    <br>
-                                    <li>Lay out the veal cutlet on a cutting board. Remove any excess fat, then beat it with a meat pounder until very thin (2-4mm). Season both sides with salt and pepper and set aside on a plate. Repeat this step with the
-                                        remaining cutlets.
-                                    </li>
-                                    <br>
-                                    <li>Dip each cutlet first into flour, then into the beaten eggs, taking care that the cutlets are completely coated in the egg wash before you place them in breadcrumbs. Coat each cutlet in breadcrumbs by shaking the container,
-                                        so that the breadcrumbs can reach every part of the cutlet without you using your fingers and possibly removing the previous layers of flour and eggs. Carefully press on the breaded cutlet with the back of a fork,
-                                        as that will help the coating fluff up even more during frying.</li>
-                                    <br>
-                                    <li>In a large frying pan melt enough clarified butter (or a combination of butter and a few tablespoons of vegetable oil) for the cutlets to be able to float. The butter is at a frying temperature if when you sprinkle
-                                        it with some flour or breadcrumbs, it starts bubbling and sizzling. At that point place the breaded cutlets into the pan and fry between 2-4 on one side, then flip using a spatula (avoid using a fork!) and fry for
-                                        another 2-4 minutes.</li>
-                                    <br>
-                                    <li>Once the schnitzels are golden brown on each side, place them on a paper towel, then pat them lightly with a paper towel to soak up the excess fat.</li>
-                                    <br>
-                                    <li>Serve while still hot, with a side of your choice — either parsley potatoes, rice, potato salad, or mixed salad — and lemon wedges to drizzle over the meat.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container mt-md-5">
-                        <div class="row foodimage justify-content-center">
-                            <img src="img/Pad Thai.jpg" class="img-fluid">
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <h2>Pad Thai</h2>
-                        </div>
-                        <div class="row mt-md-5">
-                            <div class="col-md-3 col-sm-1 Ingredients">
-                                <h4>Ingredients</h4>
-                                <br>
-                                <table class="table ">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col ">Name</th>
-                                            <th scope="col ">Quantity</th>
-                                            <th scope="col ">Unit</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>quartered banana flower</td>
-                                            <td>0,5</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>bean sprouts</td>
-                                            <td>2</td>
-                                            <td>cups</td>
-                                        </tr>
-                                        <tr>
-                                            <td>cut Chinese chivesr</td>
-                                            <td>5</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>dried shrimp</td>
-                                            <td>0,3</td>
-                                            <td>cup</td>
-                                        </tr>
-                                        <tr>
-                                            <td>egg</td>
-                                            <td>1</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>fish sauce</td>
-                                            <td>1</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>chopped garlic</td>
-                                            <td>3</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground dried chili pepper</td>
-                                            <td>0.5</td>
-                                            <td>tsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground pepper</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>lime</td>
-                                            <td>1</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>toasted and crushed peanuts</td>
-                                            <td>2</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>chopped preserved turnip</td>
-                                            <td>2</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>chopped chopped shallot</td>
-                                            <td>1</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>sugar</td>
-                                            <td>2</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thai rice noodles</td>
-                                            <td>300</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>cooking oil</td>
-                                            <td>3</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>julienne pressed tofu</td>
-                                            <td>0.3</td>
-                                            <td>cup</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-8 col-sm-1 Description">
-                                <h3>Description</h3>
-                                <br>
-                                <ol>
-                                    <li>Start by preparing the ingredients. Soak the noodles in lukewarm water for 15 minutes making them flexible and not soft.</li>
-                                    <br>
-                                    <li>Toast and coarsely ground the peanuts. Chop up garlic, shallots and preserved turnip. Remove the tips from the Chinese chives. From each cut off 6-inch pieces; the rest chop up into 1-inch pieces. Cut the banana flower
-                                        into quarters lengthwise and rub the cuts with lime juice to prevent them from going dark.</li>
-                                    <br>
-                                    <li>You will need a wok or a large pan that will allow you to stir the ingredients easily. First, heat up the wok, but not extremely, and add the oil in.</li>
-                                    <br>
-                                    <li>Place the chopped shallots and garlic in, stir for a half of a minute, and then add in the preserved turnip and tofu. Stir for a minute till the tofu has browned.</li>
-                                    <br>
-                                    <li>Next, add in drained noodles and ground dried chili pepper. You will need to stir the ingredients to separate the strands, so they cook quickly and easily. If you’ve soaked your noodles enough, you will see the noodles
-                                        becoming soft and chewy. If the noodles are still hard and stiff, add some water tablespoon by tablespoon at a time.</li>
-                                    <br>
-                                    <li>When you see that the noodles are ready, add the ground chili pepper, fish sauce, sugar, and tamarind and stir them together so they mix well.</li>
-                                    <br>
-                                    <li>Next, add in the dried shrimp while all the time you’re stirring the ingredients, so the flavors combine well together with the noodles. Taste to see if more seasoning is needed and if so, add them now. At this point,
-                                        noodles should have a stronger flavor since they will later be diluted with more ingredients.</li>
-                                    <br>
-                                    <li>After this stage, when the noodles are chewy and cooked, make the room for the egg by pushing the noodles to the side, then drop the egg in and scramble it into the noodles till the egg has cooked.</li>
-                                    <br>
-                                    <li>Next, add half of the bean sprouts and Chinese chives while at the same time quickly stirring everything so that the crunchiness of the bean sprouts and the green color of the Chinese chives is preserved.</li>
-                                    <br>
-                                    <li>Place on a plate and sprinkle with ground pepper and chopped peanuts. Decorate with the remaining bean sprouts, Chinese chives and a wedge of lime and serve with condiments on the side; sugar, fish sauce and dried ground
-                                        pepper.
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container mt-md-5">
-                        <div class="row foodimage justify-content-center">
-                            <img src="img/Tagliatelle al ragù alla Bolognese.jpg" class="img-fluid">
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <h2>Classic Ragù alla Bolognese</h2>
-                        </div>
-                        <div class="row mt-md-5">
-                            <div class="col-md-3 col-sm-1 Ingredients">
-                                <h4>Ingredients</h4>
-                                <br>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Name</th>
-                                            <th scope="col">Quantity</th>
-                                            <th scope="col">Unit</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>olive oil</td>
-                                            <td>3</td>
-                                            <td>tbsp</td>
-                                        </tr>
-                                        <tr>
-                                            <td>minced beef</td>
-                                            <td>300</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>pancetta, finely diced</td>
-                                            <td>150</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>carrots, finely diced</td>
-                                            <td>50</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>celery, finely diced</td>
-                                            <td>50</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>onion, finely diced</td>
-                                            <td>50</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>tomato passata</td>
-                                            <td>300</td>
-                                            <td>g</td>
-                                        </tr>
-                                        <tr>
-                                            <td>beef or poultry stock</td>
-                                            <td>500ml</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>ground pepper</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>whole milk</td>
-                                            <td>1</td>
-                                            <td>cup</td>
-                                        </tr>
-                                        <tr>
-                                            <td>red wine</td>
-                                            <td>0.5</td>
-                                            <td>cup</td>
-                                        </tr>
-                                        <tr>
-                                            <td>salt and pepper</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>whipping cream</td>
-                                            <td>0.5</td>
-                                            <td>cup</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-8 col-sm-1 Description">
-                                <h3>Description</h3>
-                                <br>
-                                <ol>
-                                    <li>Start by melting and browning pancetta in a heavy-bottomed saucepan over medium-low heat until the fat melts away. Add olive oil or butter, carrots, celery, and onion. Sauté the vegetables for about 10-15 minutes or
-                                        until soft.</li>
-                                    <br>
-                                    <li>Add minced beef, turning the heat up to high, and constantly stirring. When the meat is well browned, pour in the wine and stir until it completely evaporates.</li>
-                                    <br>
-                                    <li>Stir in tomato passata or peeled tomatoes, partially cover and let it simmer slowly for about 2 hours, adding some stock as necessary and occasionally stirring.</li>
-                                    <br>
-                                    <li>Towards the end of cooking, once the beef is tender, add a cup milk to soften the acidity of tomatoes. Season to taste with salt and pepper.</li>
-                                    <br>
-                                    <li>Lastly, if ragù is to be served with dry pasta instead of fresh tagliatelle, add 1/2 cup liquid whipping cream to the sauce.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="All Recipes.html">ALL RECIPES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">WHO WE ARE? </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">LET'S DECIDE </a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Type here!" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+      </nav>
     </div>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid background">
+  <div class="container">
+    <h1 class="display-4">Welcome to Toasty Toads!</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <div class="Trending-Recipes">
+    <h2 class="display-6">Trending Recipes</h1>
+  </div>
+  <div class="row homebanner">
+    <div class="card ml-1 mr-1 mt-1" style="width: 16rem;">
+      <img class="card-img-top mt-1" src="img/Lahmacun.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Lahmacun</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="Lahmacun.html" class="btn btn-primary">Go for it!</a>
+      </div>
     </div>
-    <!--FOOTER-->
-    <div id="footer-content">
-        <!--Look into footer.js-->
+    <div class="card ml-1 mr-1 mt-1" style="width: 16rem;">
+      <img class="card-img-top mt-1" src="img/Wienerschnitzel 1.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Wiener Schnitzel</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="Wiener Schnitzel.html" class="btn btn-primary">Go for it!</a>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
-    <script src="main.js "></script>
+    <div class="card ml-1 mr-1 mt-1" style="width: 16rem;">
+      <img class="card-img-top mt-1" src="img/Pad Thai.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Pad Thai</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="Pad Thai.html" class="btn btn-primary">Go for it!</a>
+      </div>
+    </div>
+    <div class="card ml-1 mr-1 mt-1" style="width: 16rem;">
+      <img class="card-img-top mt-1" src="img/Tagliatelle al ragù alla Bolognese.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Ragù alla Bolognese</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="Tagliatelle al ragù alla Bolognese.html" class="btn btn-primary">Go for it!</a>
+      </div>
+    </div>
+    <div class="card ml-1 mr-1 mt-1" style="width: 16rem;">
+      <img class="card-img-top mt-1" src="img/Bulgogi.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Bulgogi</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="Tagliatelle al ragù alla Bolognese.html" class="btn btn-primary">Go for it!</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <footer id="footer " class="pt-4 my-md-5 pt-md-5 border-top ">
+    <div class="row ">
+      <div class="col-12 col-md ">
+        <img class="mb-2 " src="assets/logotrans.png " alt=" " width="120 " height="90 ">
+        <small class="d-block mb-3 text-muted ">&copy; 2021 WBS CODING</small>
+      </div>
+      <div class="col-6 col-md ">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small ">
+          <li><a class="text-muted " href="# ">Cool stuff</a></li>
+          <li><a class="text-muted " href="# ">Random feature</a></li>
+          <li><a class="text-muted " href="# ">Team feature</a></li>
+          <li><a class="text-muted " href="# ">Stuff for developers</a></li>
+          <li><a class="text-muted " href="# ">Another one</a></li>
+          <li><a class="text-muted " href="# ">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md ">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small ">
+          <li><a class="text-muted " href="# ">Resource</a></li>
+          <li><a class="text-muted " href="# ">Resource name</a></li>
+          <li><a class="text-muted " href="# ">Another resource</a></li>
+          <li><a class="text-muted " href="# ">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md ">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small ">
+          <li><a class="text-muted " href="# ">Team</a></li>
+          <li><a class="text-muted " href="# ">Locations</a></li>
+          <li><a class="text-muted " href="# ">Privacy</a></li>
+          <li><a class="text-muted " href="# ">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
+  <script src="main.js "></script>
 </body>
 
 </html>
