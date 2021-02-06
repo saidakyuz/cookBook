@@ -1,5 +1,5 @@
 var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-suns-color">
-<a class="navbar-brand" href="#">
+<a class="navbar-brand" href="html.com">
     <img src="assets/logotrans.png" width="60" height="45" alt="">
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@ var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-
             <a class="nav-link" href="index.html#footer">WHO WE ARE? </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">LET'S DECIDE </a>
+            <a class="nav-link" href="explore.html">LET'S DECIDE </a>
         </li>
 
     </ul>
