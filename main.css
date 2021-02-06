@@ -78,13 +78,28 @@ body {
     border: solid;
     border-radius: 25px;
     background-color: #d9dab0;
+    margin-left: 0.25em;
+    margin-top: 0.25em;
+    padding-top: 1em;
+    flex: 1 0 500px;
 }
 
 .Ingredients {
     border: solid;
-    background-color: #487e95;
+    background-color: #f4f5db;
+    border-radius: 25px;
+    padding-top: 1em;
+    flex: 1 0 250px;
+    margin left: 0.25em;
+    margin-top: 0.25em;
 }
 
 .nextbutton {
     align-content: flex-end;
+}
+.homebanner{
+  justify-content: center;
+}
+.Trending-Recipes{
+justify-content: center;
 }

@@ -12,11 +12,15 @@ var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-
             <a class="nav-link" href="index.html">HOME <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="All Recipes.html">ALL RECIPES</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="index.html#footer">WHO WE ARE? </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="explore.html">LET'S DECIDE </a>
         </li>
+
 
     </ul>
     <form class="form-inline mt-2 mt-md-0">
