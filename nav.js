@@ -14,7 +14,7 @@ var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-
         <li class="nav-item">
             <a class="nav-link" href="index.html#footer">WHO WE ARE? </a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="#">LET'S DECIDE </a>
         </li>
 
