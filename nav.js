@@ -17,6 +17,9 @@ var navHtmlForExplore = `<nav class="navbar navbar-expand-md navbar-dark sticky-
         <li class="nav-item">
             <a class="nav-link" href="#">LET'S DECIDE </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="All Recipes.html">ALL RECIPES</a>
+        </li>
 
     </ul>
     <form class="form-inline mt-2 mt-md-0">
