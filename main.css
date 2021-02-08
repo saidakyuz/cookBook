@@ -14,6 +14,15 @@
     color: black !important;
 }
 
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inline-block-flex {
+    display: inline-block;
+}
+
 
 /*.recipe {
     margin: 5em auto;
@@ -97,9 +106,11 @@ body {
 .nextbutton {
     align-content: flex-end;
 }
-.homebanner{
-  justify-content: center;
+
+.homebanner {
+    justify-content: center;
 }
-.Trending-Recipes{
-justify-content: center;
+
+.Trending-Recipes {
+    justify-content: center;
 }
