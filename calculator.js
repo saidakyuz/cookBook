@@ -12,15 +12,18 @@ console.log(output); */
 
 
 const form = document.getElementById("calculator-form");
-const x = document.getElementsByClassName("x").innerHTML;
-console.log(x);
-const y = parseFloat(x);
-console.log(x);
+
+
+
 form.addEventListener("submit", el => {
     el.preventDefault();
     const userInput = el.target[0].value;
     if (userInput) {
-        console.log(userInput);
+        const x = document.querySelectorAll(".x");
+        x.forEach(element => {
+            element.innerHTML *= userInput;
+        })
+
 
     }
 })
